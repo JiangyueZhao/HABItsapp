@@ -12,4 +12,5 @@ android {
 
     defaultConfig {
         applicationId "me.aprilian.coinbasesample"
-     
+        minSdkVersion rootProject.minSdkVersion
+        targetSdkVersio
