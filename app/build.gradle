@@ -14,4 +14,7 @@ android {
         applicationId "me.aprilian.coinbasesample"
         minSdkVersion rootProject.minSdkVersion
         targetSdkVersion rootProject.targetSdkVersion
-        versionCode rootProje
+        versionCode rootProject.appVersionCode
+        versionName rootProject.appVersionName
+
+   
