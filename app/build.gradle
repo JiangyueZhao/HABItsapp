@@ -17,4 +17,9 @@ android {
         versionCode rootProject.appVersionCode
         versionName rootProject.appVersionName
 
-        testInstrumentationRunner "androidx.test.runner.A
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+       
