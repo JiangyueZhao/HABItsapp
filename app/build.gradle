@@ -35,4 +35,9 @@ android {
     }
     buildFeatures {
         viewBinding = true
-        dataBinding
+        dataBinding = true
+    }
+}
+
+dependencies {
+    kapt "androidx.room:room-compi
