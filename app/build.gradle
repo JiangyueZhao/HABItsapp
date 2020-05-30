@@ -23,4 +23,4 @@ android {
     buildTypes {
         release {
             minifyEnabled false
-            proguardFiles getDefau
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.p
