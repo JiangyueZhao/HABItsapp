@@ -22,4 +22,5 @@ android {
 
     buildTypes {
         release {
-       
+            minifyEnabled false
+            proguardFiles getDefau
