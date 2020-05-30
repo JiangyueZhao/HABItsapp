@@ -27,4 +27,5 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility J
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VE
