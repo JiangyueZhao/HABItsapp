@@ -40,4 +40,5 @@ android {
 }
 
 dependencies {
-    kapt "androidx.room:room-compi
+    kapt "androidx.room:room-compiler:$rootProject.roomVersion"
+    kapt "com.github.bumptech.glide:
