@@ -44,4 +44,5 @@ dependencies {
     kapt "com.github.bumptech.glide:compiler:$rootProject.glideVersion"
     kapt "com.google.dagger:hilt-android-compiler:$rootProject.hiltVersion"
 
-    im
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation
