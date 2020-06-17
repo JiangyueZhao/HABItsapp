@@ -49,4 +49,5 @@ dependencies {
     implementation "androidx.appcompat:appcompat:$rootProject.appCompatVersion"
     implementation "androidx.constraintlayout:constraintlayout:$rootProject.constraintLayoutVersion"
     implementation "androidx.core:core-ktx:$rootProject.ktxVersion"
-    implementat
+    implementation "androidx.fragment:fragment-ktx:$rootProject.fragmentVersion"
+    im
