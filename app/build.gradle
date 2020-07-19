@@ -72,4 +72,5 @@ dependencies {
     implementation "com.google.dagger:hilt-android:$rootProject.hiltVersion"
 
 
-    /
+    //Jetpack Compose
+    implementation "androidx.compose
