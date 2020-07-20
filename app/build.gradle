@@ -76,4 +76,5 @@ dependencies {
     implementation "androidx.compose.ui:ui:$rootProject.composeUi"
     implementation "androidx.compose.ui:ui-tooling:$rootProject.composeUiTooling"
     implementation "androidx.compose.foundation:foundation::$rootProject.composeFoundation"
-    implementation "androidx.compose.material:mat
+    implementation "androidx.compose.material:material::$rootProject.composeMaterial"
+    implementation "androidx
