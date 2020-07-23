@@ -78,4 +78,4 @@ dependencies {
     implementation "androidx.compose.foundation:foundation::$rootProject.composeFoundation"
     implementation "androidx.compose.material:material::$rootProject.composeMaterial"
     implementation "androidx.compose.material:material-icons-core::$rootProject.composeMaterialIconsCore"
-    implementation "and
+    implementation "androidx.compose.material:material-icons-extended::$rootProject.compos
