@@ -80,4 +80,5 @@ dependencies {
     implementation "androidx.compose.material:material-icons-core::$rootProject.composeMaterialIconsCore"
     implementation "androidx.compose.material:material-icons-extended::$rootProject.composeMaterialIconsExtended"
     implementation "androidx.activity:activity-compose::$rootProject.composeActivityCompose"
-    implementation "androidx.lifecycle:lifecycle-viewmodel-compose::$rootProject.compo
+    implementation "androidx.lifecycle:lifecycle-viewmodel-compose::$rootProject.composeLifecycleViewmodel"
+    implementation "androidx.compose
