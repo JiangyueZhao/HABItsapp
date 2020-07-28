@@ -82,4 +82,7 @@ dependencies {
     implementation "androidx.activity:activity-compose::$rootProject.composeActivityCompose"
     implementation "androidx.lifecycle:lifecycle-viewmodel-compose::$rootProject.composeLifecycleViewmodel"
     implementation "androidx.compose.runtime:runtime-livedata:$rootProject.composeRuntimeLivedata"
-    implementation "androidx.compose.runtime:runtime-rxjava2:$rootProject.composeRuntime
+    implementation "androidx.compose.runtime:runtime-rxjava2:$rootProject.composeRuntimeRxJava2"
+
+    //Jetpack UI Tests
+    androidTestIm
