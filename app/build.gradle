@@ -88,4 +88,4 @@ dependencies {
     androidTestImplementation "androidx.compose.ui:ui-test-junit4:$rootProject.composeUiTestJunit4"
 
     // Testing dependencies
-    kaptAndr
+    kaptAndroidTest "com.google.dagger:hilt-android-compiler:$rootProject.hiltVersio
