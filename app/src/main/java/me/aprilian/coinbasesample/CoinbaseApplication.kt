@@ -3,4 +3,6 @@ package me.aprilian.coinbasesample
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp
 
-@HiltAn
+@HiltAndroidApp
+class CoinbaseApplication : Application() {
+
