@@ -1,3 +1,6 @@
 package me.aprilian.coinbasesample
 
-import android.app.A
+import android.app.Application
+import dagger.hilt.android.HiltAndroidApp
+
+@HiltAn
