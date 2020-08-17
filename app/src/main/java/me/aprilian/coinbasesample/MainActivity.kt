@@ -4,4 +4,6 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.LiveData
-imp
+import androidx.lifecycle.Observer
+import androidx.navigation.NavController
+i
