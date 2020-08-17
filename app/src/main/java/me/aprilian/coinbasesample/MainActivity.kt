@@ -6,4 +6,5 @@ import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.Observer
 import androidx.navigation.NavController
-i
+import androidx.navigation.ui.setupActionBarWithNavController
+im
