@@ -8,4 +8,5 @@ import androidx.lifecycle.Observer
 import androidx.navigation.NavController
 import androidx.navigation.ui.setupActionBarWithNavController
 import dagger.hilt.android.AndroidEntryPoint
-import me.a
+import me.aprilian.coinbasesample.databinding.ActivityMainBinding
+impo
