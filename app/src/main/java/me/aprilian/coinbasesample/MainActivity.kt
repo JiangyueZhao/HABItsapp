@@ -7,4 +7,5 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.Observer
 import androidx.navigation.NavController
 import androidx.navigation.ui.setupActionBarWithNavController
-im
+import dagger.hilt.android.AndroidEntryPoint
+import me.a
