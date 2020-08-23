@@ -9,4 +9,9 @@ import androidx.navigation.NavController
 import androidx.navigation.ui.setupActionBarWithNavController
 import dagger.hilt.android.AndroidEntryPoint
 import me.aprilian.coinbasesample.databinding.ActivityMainBinding
-import me.aprilian.coinbasesample.utils.extension.setupWithNavControlle
+import me.aprilian.coinbasesample.utils.extension.setupWithNavController
+
+@AndroidEntryPoint
+class MainActivity : AppCompatActivity() {
+
+    private 
