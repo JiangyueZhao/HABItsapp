@@ -15,4 +15,6 @@ import me.aprilian.coinbasesample.utils.extension.setupWithNavController
 class MainActivity : AppCompatActivity() {
 
     private var currentNavController: LiveData<NavController>? = null
-    privat
+    private lateinit var binding: ActivityMainBinding
+
+    override f
