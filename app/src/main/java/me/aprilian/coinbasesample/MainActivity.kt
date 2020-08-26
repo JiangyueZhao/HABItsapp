@@ -14,4 +14,5 @@ import me.aprilian.coinbasesample.utils.extension.setupWithNavController
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
-    private 
+    private var currentNavController: LiveData<NavController>? = null
+    privat
