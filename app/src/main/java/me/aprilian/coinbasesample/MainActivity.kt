@@ -17,4 +17,5 @@ class MainActivity : AppCompatActivity() {
     private var currentNavController: LiveData<NavController>? = null
     private lateinit var binding: ActivityMainBinding
 
-    override f
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedIn
