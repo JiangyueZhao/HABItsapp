@@ -18,4 +18,5 @@ class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedIn
+        super.onCreate(savedInstanceState)
+        binding = DataBindingUtil.setContentView(t
