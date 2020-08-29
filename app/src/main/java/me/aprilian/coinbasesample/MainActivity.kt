@@ -23,4 +23,6 @@ class MainActivity : AppCompatActivity() {
         if (savedInstanceState == null) setupBottomNavigationBar()
     }
 
-    private 
+    private fun setupBottomNavigationBar() {
+        //init navigation
+//        
