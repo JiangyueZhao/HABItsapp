@@ -30,4 +30,5 @@ class MainActivity : AppCompatActivity() {
 //        navController.navigate(R.id.action_home_to_details)
 
         //navigation stacks
-        
+        val bottomNavigationView = binding.bottomNav
+        val navGraphIds = li
