@@ -27,4 +27,7 @@ class MainActivity : AppCompatActivity() {
         //init navigation
 //        val navHostFragment = supportFragmentManager.findFragmentById(R.id.nav_host_fragment) as NavHostFragment
 //        val navController = navHostFragment.navController
-//        navController.
+//        navController.navigate(R.id.action_home_to_details)
+
+        //navigation stacks
+        
