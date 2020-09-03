@@ -31,4 +31,6 @@ class MainActivity : AppCompatActivity() {
 
         //navigation stacks
         val bottomNavigationView = binding.bottomNav
-        val navGraphIds = li
+        val navGraphIds = listOf(
+            R.navigation.nav_graph_home,
+            R.navi
