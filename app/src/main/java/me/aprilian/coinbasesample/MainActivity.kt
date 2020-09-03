@@ -33,4 +33,5 @@ class MainActivity : AppCompatActivity() {
         val bottomNavigationView = binding.bottomNav
         val navGraphIds = listOf(
             R.navigation.nav_graph_home,
-            R.navi
+            R.navigation.nav_graph_coin_detail,
+            R.navigation.nav_gr
