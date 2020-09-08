@@ -43,4 +43,8 @@ class MainActivity : AppCompatActivity() {
         val controller = bottomNavigationView.setupWithNavController(
             navGraphIds = navGraphIds,
             fragmentManager = supportFragmentManager,
-            containerId = R.id.
+            containerId = R.id.nav_host_fragment,
+            intent = intent
+        )
+
+        currentNavCo
