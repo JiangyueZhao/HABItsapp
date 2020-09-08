@@ -34,4 +34,6 @@ class MainActivity : AppCompatActivity() {
         val navGraphIds = listOf(
             R.navigation.nav_graph_home,
             R.navigation.nav_graph_coin_detail,
-            R.navigation.nav_gr
+            R.navigation.nav_graph_exchange,
+            R.navigation.nav_graph_price,
+          
