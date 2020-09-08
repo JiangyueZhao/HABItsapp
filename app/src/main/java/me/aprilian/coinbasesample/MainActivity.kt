@@ -36,4 +36,7 @@ class MainActivity : AppCompatActivity() {
             R.navigation.nav_graph_coin_detail,
             R.navigation.nav_graph_exchange,
             R.navigation.nav_graph_price,
-          
+            R.navigation.nav_graph_settings
+        )
+
+        // Setup the bottom 
