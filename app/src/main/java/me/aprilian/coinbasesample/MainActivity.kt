@@ -47,4 +47,7 @@ class MainActivity : AppCompatActivity() {
             intent = intent
         )
 
-        currentNavCo
+        currentNavController = controller
+    }
+
+    override fun onSupportNavigateU
