@@ -40,4 +40,5 @@ class MainActivity : AppCompatActivity() {
         )
 
         // Setup the bottom navigation view with a list of navigation graphs
-        val contro
+        val controller = bottomNavigationView.setupWithNavController(
+    
