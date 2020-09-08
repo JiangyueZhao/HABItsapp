@@ -39,4 +39,5 @@ class MainActivity : AppCompatActivity() {
             R.navigation.nav_graph_settings
         )
 
-        // Setup the bottom 
+        // Setup the bottom navigation view with a list of navigation graphs
+        val contro
