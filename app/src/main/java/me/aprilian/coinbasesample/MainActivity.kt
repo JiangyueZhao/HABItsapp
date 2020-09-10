@@ -51,4 +51,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onSupportNavigateUp(): Boolean {
-        return currentNavController?.value?.navigate
+        return currentNavController?.value?.navigateUp() ?: false
+    }
+}
