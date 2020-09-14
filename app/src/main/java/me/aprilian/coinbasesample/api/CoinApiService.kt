@@ -6,4 +6,5 @@ import retrofit2.http.GET
 import retrofit2.http.Query
 
 interface CoinApiService {
-    @GE
+    @GET("/v1/cryptocurrency/listings/latest")
+    suspend fun getLate
