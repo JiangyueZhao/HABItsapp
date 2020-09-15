@@ -9,4 +9,5 @@ interface CoinApiService {
     @GET("/v1/cryptocurrency/listings/latest")
     suspend fun getLatestCoin(
         @Query("start") start: Int = 1,
-        @Quer
+        @Query("limit") limit: Int = 10,
+        @Query("convert") conve
