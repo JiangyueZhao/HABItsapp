@@ -10,4 +10,6 @@ interface CoinApiService {
     suspend fun getLatestCoin(
         @Query("start") start: Int = 1,
         @Query("limit") limit: Int = 10,
-        @Query("convert") conve
+        @Query("convert") convert: String = "USD"
+    ): Response<LatestCoinResponse>
+}
