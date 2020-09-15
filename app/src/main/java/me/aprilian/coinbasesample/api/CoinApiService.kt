@@ -7,4 +7,6 @@ import retrofit2.http.Query
 
 interface CoinApiService {
     @GET("/v1/cryptocurrency/listings/latest")
-    suspend fun getLate
+    suspend fun getLatestCoin(
+        @Query("start") start: Int = 1,
+        @Quer
