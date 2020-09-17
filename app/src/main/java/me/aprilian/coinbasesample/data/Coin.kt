@@ -1,4 +1,8 @@
 package me.aprilian.coinbasesample.data
 
 import android.os.Parcelable
-import kotl
+import kotlinx.android.parcel.Parcelize
+
+@Parcelize
+data class Coin(
+  
