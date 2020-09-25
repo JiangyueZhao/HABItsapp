@@ -11,4 +11,6 @@ data class Coin(
     val price: Long,
     val growth: Double
 ) : Parcelable {
-    companion obje
+    companion object {
+        suspend fun getSample(): ArrayList<Coin>{
+    
