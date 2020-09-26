@@ -13,4 +13,5 @@ data class Coin(
 ) : Parcelable {
     companion object {
         suspend fun getSample(): ArrayList<Coin>{
-    
+            return arrayListOf(
+                Coin(1, "Bitcoin", "BTC", 3000000,
