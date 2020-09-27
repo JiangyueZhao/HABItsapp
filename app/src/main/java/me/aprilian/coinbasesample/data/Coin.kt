@@ -16,4 +16,5 @@ data class Coin(
             return arrayListOf(
                 Coin(1, "Bitcoin", "BTC", 3000000, 2.67),
                 Coin(2, "DogeCoin", "DOGE", 30, 20.00),
-                Coin(3, "TRON", "TRX", 7
+                Coin(3, "TRON", "TRX", 78, 20.00),
+                Coin(4, "Bitcoin", "B
