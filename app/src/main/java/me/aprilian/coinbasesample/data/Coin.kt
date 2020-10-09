@@ -20,3 +20,7 @@ data class Coin(
                 Coin(4, "Bitcoin", "BTC", 3000000, 2.67),
                 Coin(5, "DogeCoin", "DOGE", 30, 20.00),
                 Coin(6, "TRON", "TRX", 78, 20.00),
+            )
+        }
+    }
+}
