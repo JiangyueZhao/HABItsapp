@@ -1,3 +1,7 @@
 package me.aprilian.coinbasesample.data
 import android.os.Parcelable
-import com.google.gs
+import com.google.gson.annotations.SerializedName
+import kotlinx.android.parcel.Parcelize
+
+@Parcelize
+dat
