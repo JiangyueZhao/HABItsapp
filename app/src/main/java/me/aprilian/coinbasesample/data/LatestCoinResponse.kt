@@ -8,4 +8,8 @@ data class LatestCoinResponse(
     @SerializedName("data")
     val `data`: List<Data>,
     @SerializedName("status")
-    val status: 
+    val status: Status
+): Parcelable {
+    @Parcelize
+    data class Data(
+      
