@@ -12,4 +12,5 @@ data class LatestCoinResponse(
 ): Parcelable {
     @Parcelize
     data class Data(
-      
+        @SerializedName("circulating_supply")
+        val circula
