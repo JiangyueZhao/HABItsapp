@@ -6,4 +6,6 @@ import kotlinx.android.parcel.Parcelize
 @Parcelize
 data class LatestCoinResponse(
     @SerializedName("data")
-    val `
+    val `data`: List<Data>,
+    @SerializedName("status")
+    val status: 
