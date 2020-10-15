@@ -13,4 +13,5 @@ data class LatestCoinResponse(
     @Parcelize
     data class Data(
         @SerializedName("circulating_supply")
-        val circula
+        val circulatingSupply: Int?,
+        @SerializedName("cmc_ra
