@@ -14,4 +14,6 @@ data class LatestCoinResponse(
     data class Data(
         @SerializedName("circulating_supply")
         val circulatingSupply: Int?,
-        @SerializedName("cmc_ra
+        @SerializedName("cmc_rank")
+        val cmcRank: Int?,
+        @SerializedName("dat
