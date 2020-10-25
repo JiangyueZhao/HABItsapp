@@ -23,4 +23,6 @@ data class LatestCoinResponse(
         @SerializedName("last_updated")
         val lastUpdated: String?,
         @SerializedName("max_supply")
-    
+        val maxSupply: Int?,
+        @SerializedName("name")
+   
