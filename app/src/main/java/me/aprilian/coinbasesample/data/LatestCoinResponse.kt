@@ -25,4 +25,5 @@ data class LatestCoinResponse(
         @SerializedName("max_supply")
         val maxSupply: Int?,
         @SerializedName("name")
-   
+        val name: String = "",
+        @SerializedName("num_market_
