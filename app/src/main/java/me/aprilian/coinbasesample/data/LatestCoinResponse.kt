@@ -19,4 +19,6 @@ data class LatestCoinResponse(
         @SerializedName("date_added")
         val dateAdded: String?,
         @SerializedName("id")
-  
+        val id: Int,
+        @SerializedName("last_updated")
+    
