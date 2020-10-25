@@ -29,4 +29,5 @@ data class LatestCoinResponse(
         @SerializedName("num_market_pairs")
         val numMarketPairs: Int?,
         @SerializedName("quote")
-  
+        val quote: Quote?,
+        @SerializedName(
