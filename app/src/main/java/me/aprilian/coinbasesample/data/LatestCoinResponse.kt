@@ -36,4 +36,5 @@ data class LatestCoinResponse(
         val symbol: String = "",
         @SerializedName("tags")
         val tags: List<String>?,
-     
+        @SerializedName("total_supply")
+        val totalSupply: I
