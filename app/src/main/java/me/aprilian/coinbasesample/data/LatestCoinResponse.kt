@@ -37,4 +37,7 @@ data class LatestCoinResponse(
         @SerializedName("tags")
         val tags: List<String>?,
         @SerializedName("total_supply")
-        val totalSupply: I
+        val totalSupply: Int?
+    ): Parcelable {
+        @Parcelize
+        data class
