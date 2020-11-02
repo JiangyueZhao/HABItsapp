@@ -43,4 +43,7 @@ data class LatestCoinResponse(
         data class Quote(
             @SerializedName("BTC")
             val bTC: BTC?,
-            @SerializedName("
+            @SerializedName("ETH")
+            val eTH: ETH?,
+            @SerializedName("USD")
+   
