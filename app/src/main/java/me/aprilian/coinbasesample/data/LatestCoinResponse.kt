@@ -42,4 +42,5 @@ data class LatestCoinResponse(
         @Parcelize
         data class Quote(
             @SerializedName("BTC")
-            
+            val bTC: BTC?,
+            @SerializedName("
