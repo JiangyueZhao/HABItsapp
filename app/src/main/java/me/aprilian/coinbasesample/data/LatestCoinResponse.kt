@@ -46,4 +46,7 @@ data class LatestCoinResponse(
             @SerializedName("ETH")
             val eTH: ETH?,
             @SerializedName("USD")
-   
+            val uSD: USD?
+        ): Parcelable {
+            @Parcelize
+ 
