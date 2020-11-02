@@ -40,4 +40,6 @@ data class LatestCoinResponse(
         val totalSupply: Int?
     ): Parcelable {
         @Parcelize
-        data class
+        data class Quote(
+            @SerializedName("BTC")
+            
