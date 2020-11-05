@@ -49,4 +49,5 @@ data class LatestCoinResponse(
             val uSD: USD?
         ): Parcelable {
             @Parcelize
- 
+            data class BTC(
+                @SerializedName("last_updat
