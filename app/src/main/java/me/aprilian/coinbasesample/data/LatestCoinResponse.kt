@@ -52,4 +52,5 @@ data class LatestCoinResponse(
             data class BTC(
                 @SerializedName("last_updated")
                 val lastUpdated: String?,
-                
+                @SerializedName("market_cap")
+                val marketCap: Int?,
