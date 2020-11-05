@@ -50,4 +50,6 @@ data class LatestCoinResponse(
         ): Parcelable {
             @Parcelize
             data class BTC(
-                @SerializedName("last_updat
+                @SerializedName("last_updated")
+                val lastUpdated: String?,
+                
