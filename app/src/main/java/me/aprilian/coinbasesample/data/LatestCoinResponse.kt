@@ -61,4 +61,5 @@ data class LatestCoinResponse(
                 @SerializedName("percent_change_7d")
                 val percentChange7d: Int?,
                 @SerializedName("price")
-     
+                val price: Int?,
+                @SerializedNam
