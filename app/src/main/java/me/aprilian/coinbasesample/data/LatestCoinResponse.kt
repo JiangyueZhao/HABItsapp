@@ -64,3 +64,7 @@ data class LatestCoinResponse(
                 val price: Int?,
                 @SerializedName("volume_24h")
                 val volume24h: Int?
+            ): Parcelable
+
+            @Parcelize
+            data class 
