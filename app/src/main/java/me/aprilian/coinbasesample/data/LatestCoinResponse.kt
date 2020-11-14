@@ -67,4 +67,6 @@ data class LatestCoinResponse(
             ): Parcelable
 
             @Parcelize
-            data class 
+            data class ETH(
+                @SerializedName("last_updated")
+                val lastUpdat
