@@ -69,4 +69,6 @@ data class LatestCoinResponse(
             @Parcelize
             data class ETH(
                 @SerializedName("last_updated")
-                val lastUpdat
+                val lastUpdated: String?,
+                @SerializedName("market_cap")
+     
