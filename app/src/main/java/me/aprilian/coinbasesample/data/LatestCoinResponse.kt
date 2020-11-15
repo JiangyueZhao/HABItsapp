@@ -72,4 +72,5 @@ data class LatestCoinResponse(
                 val lastUpdated: String?,
                 @SerializedName("market_cap")
                 val marketCap: Int?,
-                @Seri
+                @SerializedName("percent_change_1h")
+                
