@@ -86,4 +86,6 @@ data class LatestCoinResponse(
 
             @Parcelize
             data class USD(
-                @SerializedName("
+                @SerializedName("last_updated")
+                val lastUpdated: String?,
+                @Serialize
