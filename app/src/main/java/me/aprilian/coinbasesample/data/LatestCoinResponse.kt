@@ -84,4 +84,6 @@ data class LatestCoinResponse(
                 val volume24h: Int?
             ): Parcelable
 
-   
+            @Parcelize
+            data class USD(
+                @SerializedName("
