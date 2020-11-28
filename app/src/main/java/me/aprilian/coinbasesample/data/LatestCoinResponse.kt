@@ -107,3 +107,6 @@ data class LatestCoinResponse(
     @Parcelize
     data class Status(
         @SerializedName("credit_count")
+        val creditCount: Int?,
+        @SerializedName("elapsed")
+    
