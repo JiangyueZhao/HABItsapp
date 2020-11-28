@@ -109,4 +109,6 @@ data class LatestCoinResponse(
         @SerializedName("credit_count")
         val creditCount: Int?,
         @SerializedName("elapsed")
-    
+        val elapsed: Int?,
+        @SerializedName("error_code")
+     
