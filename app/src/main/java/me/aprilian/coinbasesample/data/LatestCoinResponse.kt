@@ -103,3 +103,7 @@ data class LatestCoinResponse(
             ): Parcelable
         }
     }
+
+    @Parcelize
+    data class Status(
+        @SerializedName("credit_count")
