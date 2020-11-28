@@ -98,4 +98,5 @@ data class LatestCoinResponse(
                 val percentChange7d: Double?,
                 @SerializedName("price")
                 val price: Double?,
-       
+                @SerializedName("volume_24h")
+                val 
