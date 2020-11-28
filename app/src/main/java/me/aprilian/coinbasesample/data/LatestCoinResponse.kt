@@ -92,4 +92,5 @@ data class LatestCoinResponse(
                 val marketCap: Long?,
                 @SerializedName("percent_change_1h")
                 val percentChange1h: Double?,
-                @SerializedName("perce
+                @SerializedName("percent_change_24h")
+                val percentChange24h: Doub
