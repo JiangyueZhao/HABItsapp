@@ -115,4 +115,6 @@ data class LatestCoinResponse(
         @SerializedName("error_message")
         val errorMessage: String?,
         @SerializedName("timestamp")
-  
+        val timestamp: String?
+    ): Parcelable
+}
