@@ -18,3 +18,40 @@ import retrofit2.converter.gson.GsonConverterFactory
 import javax.inject.Singleton
 
 @Module
+@InstallIn(SingletonComponent::class)
+class AppModule {
+
+    @Provides
+    fun provideBaseUrl() = Constants.BASE_URL
+
+    @Singleton
+    @Provides
+    fun provideOkHttpClient() = if (BuildConfig.DEBUG){
+        val loggingInterceptor = HttpLoggingInterceptor()
+        loggingInterceptor.setLevel(HttpLoggingInterceptor.Level.BODY)
+        OkHttpClient.Builder()
+            .addInterceptor(loggingInterceptor)
+            .addInterceptor(BasicAuthInterceptor())
+            .build()
+    }else{
+        OkHttpClient
+            .Builder()
+            .build()
+    }
+
+    @Singleton
+    @Provides
+    fun provideRetrofit(okHttpClient: OkHttpClient, BASE_URL:String): Retrofit = Retrofit.Builder()
+        .addConverterFactory(GsonConverterFactory.create())
+        .baseUrl(BASE_URL)
+        .client(okHttpClient)
+        .build()
+
+    @Provides
+    @Singleton
+    fun provideCoinApiService(retrofit: Retrofit) = retrofit.create(CoinApiService::class.java)
+
+    @Provides
+    @Singleton
+    fun provideApiHelper(apiHelper: ApiHelperImpl): ApiHelper = apiHelper
+}
