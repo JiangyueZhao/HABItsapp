@@ -6,4 +6,5 @@ import retrofit2.Response
 import javax.inject.Inject
 
 //currently is not used
-class ApiH
+class ApiHelperImpl @Inject constructor(
+    private val coinApiService: CoinApiService
