@@ -10,4 +10,6 @@ class ApiHelperImpl @Inject constructor(
     private val coinApiService: CoinApiService
 ): ApiHelper{
     override suspend fun getLatestCoin(start:Int, limit: Int, convert: String): Response<LatestCoinResponse> {
-       
+        return coinApiService.getLatestCoin(start, limit, convert)
+    }
+}
