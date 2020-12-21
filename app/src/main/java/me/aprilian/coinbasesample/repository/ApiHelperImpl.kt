@@ -9,4 +9,5 @@ import javax.inject.Inject
 class ApiHelperImpl @Inject constructor(
     private val coinApiService: CoinApiService
 ): ApiHelper{
-    override suspend fun getLatestCoin(start:Int, limit
+    override suspend fun getLatestCoin(start:Int, limit: Int, convert: String): Response<LatestCoinResponse> {
+       
