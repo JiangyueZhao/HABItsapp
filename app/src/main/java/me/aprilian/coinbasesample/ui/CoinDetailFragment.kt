@@ -7,4 +7,6 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import me.aprilian.coinbasesample.databinding.FragmentCoinDetailBinding
 
-class CoinDetailFragment
+class CoinDetailFragment : Fragment() {
+
+    private lateinit var binding: FragmentCoinDetailBi
