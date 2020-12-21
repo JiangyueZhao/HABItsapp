@@ -4,4 +4,5 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.frag
+import androidx.fragment.app.Fragment
+import me.aprilian.coinbasesample.dat
