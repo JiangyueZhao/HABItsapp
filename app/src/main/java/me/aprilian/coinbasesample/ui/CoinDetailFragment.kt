@@ -9,4 +9,6 @@ import me.aprilian.coinbasesample.databinding.FragmentCoinDetailBinding
 
 class CoinDetailFragment : Fragment() {
 
-    private lateinit var binding: FragmentCoinDetailBi
+    private lateinit var binding: FragmentCoinDetailBinding
+
+    override fun onCreateView(inflater: LayoutInflater, container:
