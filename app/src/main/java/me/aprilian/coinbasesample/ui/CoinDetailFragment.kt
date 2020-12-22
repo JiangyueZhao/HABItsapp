@@ -18,4 +18,6 @@ class CoinDetailFragment : Fragment() {
 
     companion object {
         @JvmStatic
-        fun n
+        fun newInstance(){}
+    }
+}
