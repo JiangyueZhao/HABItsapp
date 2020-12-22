@@ -13,4 +13,9 @@ class CoinDetailFragment : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         binding = FragmentCoinDetailBinding.inflate(layoutInflater)
-        return 
+        return binding.root
+    }
+
+    companion object {
+        @JvmStatic
+        fun n
