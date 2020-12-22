@@ -12,4 +12,5 @@ class CoinDetailFragment : Fragment() {
     private lateinit var binding: FragmentCoinDetailBinding
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        bind
+        binding = FragmentCoinDetailBinding.inflate(layoutInflater)
+        return 
