@@ -56,3 +56,38 @@ class WatchListAdapter : ListAdapter<Coin, WatchListAdapter.CoinViewHolder>(Comp
     class CoinViewHolder(val binding: ItemWatchlistBinding) : RecyclerView.ViewHolder(binding.root)
 
     companion object: DiffUtil.ItemCallback<Coin>() {
+        override fun areItemsTheSame(oldItem: Coin, newItem: Coin): Boolean = oldItem === newItem
+        override fun areContentsTheSame(oldItem: Coin, newItem: Coin): Boolean = oldItem.id == newItem.id
+    }
+
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CoinViewHolder {
+        val layoutInflater = LayoutInflater.from(parent.context)
+        val binding = ItemWatchlistBinding.inflate(layoutInflater)
+
+        return CoinViewHolder(binding)
+    }
+
+    override fun onBindViewHolder(holder: CoinViewHolder, position: Int) {
+        val currentCoin = getItem(position)
+        holder.binding.coin = currentCoin
+        holder.binding.executePendingBindings()
+    }
+}
+
+@HiltViewModel
+class HomeViewModel @Inject constructor(): ViewModel(){
+    //private val coins: MutableLiveData<List<Coin>> = MutableLiveData()
+    private val coins: ArrayList<Coin> = arrayListOf()
+
+    fun getCoins(): ArrayList<Coin> {
+        return coins
+    }
+
+    private fun loadCoins() = viewModelScope.launch {
+        coins.addAll(Coin.getSample())
+    }
+
+    init {
+        loadCoins()
+    }
+}
