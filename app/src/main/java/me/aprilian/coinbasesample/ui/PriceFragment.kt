@@ -91,3 +91,26 @@ class PriceViewModel @Inject constructor(
         loadLatestCoins()
     }
 }
+
+class LatestCoinAdapter : ListAdapter<LatestCoinResponse.Data, LatestCoinAdapter.LatestCoinViewHolder>(Companion) {
+
+    class LatestCoinViewHolder(val binding: ItemLatestCoinBinding) : RecyclerView.ViewHolder(binding.root)
+
+    companion object: DiffUtil.ItemCallback<LatestCoinResponse.Data>() {
+        override fun areItemsTheSame(oldItem: LatestCoinResponse.Data, newItem: LatestCoinResponse.Data): Boolean = oldItem === newItem
+        override fun areContentsTheSame(oldItem: LatestCoinResponse.Data, newItem: LatestCoinResponse.Data): Boolean = oldItem.id == newItem.id
+    }
+
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): LatestCoinViewHolder {
+        val layoutInflater = LayoutInflater.from(parent.context)
+        val binding = ItemLatestCoinBinding.inflate(layoutInflater)
+
+        return LatestCoinViewHolder(binding)
+    }
+
+    override fun onBindViewHolder(holder: LatestCoinViewHolder, position: Int) {
+        val currentCoin = getItem(position)
+        holder.binding.coin = currentCoin
+        holder.binding.executePendingBindings()
+    }
+}
