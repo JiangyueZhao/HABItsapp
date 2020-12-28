@@ -12,4 +12,5 @@ import java.lang.reflect.Modifier
 
 class SettingsFragment : Fragment(){
     override fun onCreateView(
-        inflater: LayoutInflate
+        inflater: LayoutInflater, container: ViewGroup?,
+        savedInstanceState: Bundle?
