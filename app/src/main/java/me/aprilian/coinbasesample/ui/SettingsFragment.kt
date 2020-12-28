@@ -8,4 +8,6 @@ import android.view.ViewGroup
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.ComposeView
 import androidx.fragment.app.Fragment
-import
+import java.lang.reflect.Modifier
+
+class SettingsFragment : Fragment
