@@ -10,4 +10,6 @@ import androidx.compose.ui.platform.ComposeView
 import androidx.fragment.app.Fragment
 import java.lang.reflect.Modifier
 
-class SettingsFragment : Fragment
+class SettingsFragment : Fragment(){
+    override fun onCreateView(
+        inflater: LayoutInflate
