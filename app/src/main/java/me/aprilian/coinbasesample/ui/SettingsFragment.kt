@@ -40,4 +40,5 @@ fun SimpleOutlinedTextFieldSample() {
 //        modifier = Modifier.fillMaxSize()
 //    ) {
 //        Scaffold(
-//  
+//            topBar = { ChukyTopBar() },
+//            bottomBar
