@@ -16,3 +16,6 @@ class SettingsFragment : Fragment(){
         savedInstanceState: Bundle?
     ): View? {
         return ComposeView(requireContext()).apply {
+            setContent {
+                Text("Hello World")
+           
