@@ -41,4 +41,6 @@ fun SimpleOutlinedTextFieldSample() {
 //    ) {
 //        Scaffold(
 //            topBar = { ChukyTopBar() },
-//            bottomBar
+//            bottomBar = { MainNavigation() }
+//        ) {
+//            Home
