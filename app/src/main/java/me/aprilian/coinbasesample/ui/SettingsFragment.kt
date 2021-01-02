@@ -37,4 +37,7 @@ fun SimpleOutlinedTextFieldSample() {
 //@Composable
 //fun MainApp() {
 //    Surface(
-//        modifie
+//        modifier = Modifier.fillMaxSize()
+//    ) {
+//        Scaffold(
+//  
