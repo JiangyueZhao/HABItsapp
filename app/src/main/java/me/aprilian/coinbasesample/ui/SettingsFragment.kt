@@ -24,4 +24,7 @@ class SettingsFragment : Fragment(){
 }
 
 @Composable
-fun SimpleOutlinedTextFieldSample()
+fun SimpleOutlinedTextFieldSample() {
+    var text by remember { mutableStateOf("") }
+
+    OutlinedTex
