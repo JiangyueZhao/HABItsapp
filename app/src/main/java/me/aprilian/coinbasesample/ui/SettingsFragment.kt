@@ -18,4 +18,10 @@ class SettingsFragment : Fragment(){
         return ComposeView(requireContext()).apply {
             setContent {
                 Text("Hello World")
-           
+            }
+        }
+    }
+}
+
+@Composable
+fun SimpleOutlinedTextFieldSample()
