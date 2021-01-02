@@ -29,4 +29,10 @@ fun SimpleOutlinedTextFieldSample() {
 
     OutlinedTextField(
         value = text,
-        onValueChange = { text 
+        onValueChange = { text = it },
+        label = { Text("Label") }
+    )
+}
+
+//@Composable
+//
