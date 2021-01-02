@@ -27,4 +27,6 @@ class SettingsFragment : Fragment(){
 fun SimpleOutlinedTextFieldSample() {
     var text by remember { mutableStateOf("") }
 
-    OutlinedTex
+    OutlinedTextField(
+        value = text,
+        onValueChange = { text 
