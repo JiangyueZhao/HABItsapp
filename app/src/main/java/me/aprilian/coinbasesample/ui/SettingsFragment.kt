@@ -43,4 +43,10 @@ fun SimpleOutlinedTextFieldSample() {
 //            topBar = { ChukyTopBar() },
 //            bottomBar = { MainNavigation() }
 //        ) {
-//            Home
+//            HomeScreen()
+//        }
+//    }
+//}
+//
+//
+//@Preview(showBackg
