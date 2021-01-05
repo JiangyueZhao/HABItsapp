@@ -49,4 +49,7 @@ fun SimpleOutlinedTextFieldSample() {
 //}
 //
 //
-//@Preview(showBackg
+//@Preview(showBackground = true)
+//@Composable
+//fun DefaultPreview() {
+//  
