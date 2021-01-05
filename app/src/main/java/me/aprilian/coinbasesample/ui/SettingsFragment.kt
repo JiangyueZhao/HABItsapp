@@ -52,4 +52,7 @@ fun SimpleOutlinedTextFieldSample() {
 //@Preview(showBackground = true)
 //@Composable
 //fun DefaultPreview() {
-//  
+//    MyChukyEatsApplicationTheme {
+//        MainApp()
+//    }
+/
