@@ -154,3 +154,54 @@ private fun BottomNavigationView.setupItemReselected(
         val newlySelectedItemTag = graphIdToTagMap[item.itemId]
         val selectedFragment =
             fragmentManager.findFragmentByTag(newlySelectedItemTag) as NavHostFragment
+        val navController = selectedFragment.navController
+        // Pop the back stack to the start destination of the current navController graph
+        navController.popBackStack(navController.graph.getStartDestination(), false)
+    }
+}
+
+private fun detachNavHostFragment(
+    fragmentManager: FragmentManager,
+    navHostFragment: NavHostFragment) {
+    fragmentManager.beginTransaction().detach(navHostFragment).commitNow()
+}
+
+private fun attachNavHostFragment(
+    fragmentManager: FragmentManager,
+    navHostFragment: NavHostFragment,
+    isPrimaryNavFragment: Boolean
+) {
+    fragmentManager.beginTransaction().attach(navHostFragment).apply {
+        if (isPrimaryNavFragment) {
+            setPrimaryNavigationFragment(navHostFragment)
+        }
+    }.commitNow()
+}
+
+private fun obtainNavHostFragment(
+    fragmentManager: FragmentManager,
+    fragmentTag: String,
+    navGraphId: Int,
+    containerId: Int
+): NavHostFragment {
+    // If the Nav Host fragment exists, return it
+    val existingFragment = fragmentManager.findFragmentByTag(fragmentTag) as NavHostFragment?
+    existingFragment?.let { return it }
+
+    // Otherwise, create it and return it.
+    val navHostFragment = NavHostFragment.create(navGraphId)
+    fragmentManager.beginTransaction().add(containerId, navHostFragment, fragmentTag).commitNow()
+    return navHostFragment
+}
+
+private fun FragmentManager.isOnBackStack(backStackName: String): Boolean {
+    val backStackCount = backStackEntryCount
+    for (index in 0 until backStackCount) {
+        if (getBackStackEntryAt(index).name == backStackName) {
+            return true
+        }
+    }
+    return false
+}
+
+private fun getFragmentTag(index: Int) = "bottomNavigation#$index"
