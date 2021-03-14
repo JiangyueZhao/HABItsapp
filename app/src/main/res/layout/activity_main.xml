@@ -31,4 +31,5 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/colorTextIcons"
-            app:itemBackground="@color/
+            app:itemBackground="@color/colorTextIcons"
+            app:layout_behavior="@string/hide
