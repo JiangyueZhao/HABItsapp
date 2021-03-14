@@ -27,4 +27,6 @@
 <!--        app:navGraph="@navigation/nav_graph_home"-->
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
-            android:id="@
+            android:id="@+id/bottom_nav"
+            android:layout_width="match_parent"
+            andro
