@@ -9,4 +9,6 @@
             type="me.aprilian.coinbasesample.ui.WatchListAdapter" />
     </data>
 
-    <androidx.core.widget.NestedScro
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        an
