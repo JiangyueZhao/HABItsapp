@@ -6,4 +6,7 @@
     <data>
         <variable
             name="adapter"
-            type="me.aprilian.coinbasesample.ui.WatchLi
+            type="me.aprilian.coinbasesample.ui.WatchListAdapter" />
+    </data>
+
+    <androidx.core.widget.NestedScro
