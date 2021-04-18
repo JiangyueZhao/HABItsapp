@@ -5,4 +5,5 @@
 
     <data>
         <variable
-         
+            name="adapter"
+            type="me.aprilian.coinbasesample.ui.WatchLi
