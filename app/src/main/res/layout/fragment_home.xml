@@ -24,4 +24,5 @@
                 android:layout_height="124dp"
                 android:layout_marginVertical="48dp"
                 android:contentDescription="@string/app_name"
-                android:
+                android:src="@mipmap/ic_launcher"
+                app:layout_constraintT
