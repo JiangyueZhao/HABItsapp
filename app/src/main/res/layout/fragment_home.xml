@@ -26,4 +26,7 @@
                 android:contentDescription="@string/app_name"
                 android:src="@mipmap/ic_launcher"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintStart_toStartOf="par
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            
