@@ -21,4 +21,5 @@
             <ImageView
                 android:id="@+id/image1"
                 android:layout_width="124dp"
- 
+                android:layout_height="124dp"
+                android:lay
