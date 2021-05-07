@@ -36,4 +36,5 @@
                 android:layout_marginTop="28dp"
                 android:text="@string/welcome_to_coinbase"
                 android:textSize="24sp"
-         
+                android:textStyle="bold"
+                app:layout_constraintTo
