@@ -53,4 +53,5 @@
 
             <Button
                 android:id="@+id/buttonFund"
-                style="@styl
+                style="@style/MyButtonStyle"
+                android:layout_width="match_parent"
