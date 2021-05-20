@@ -52,4 +52,5 @@
 
 
             <Button
-              
+                android:id="@+id/buttonFund"
+                style="@styl
