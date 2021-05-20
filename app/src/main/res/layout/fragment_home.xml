@@ -47,4 +47,5 @@
                 android:layout_height="wrap_content"
                 android:text="@string/do_your_investation_today"
                 app:layout_constraintTop_toBottomOf="@id/text1"
-                app:
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_
