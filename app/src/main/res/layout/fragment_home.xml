@@ -48,4 +48,8 @@
                 android:text="@string/do_your_investation_today"
                 app:layout_constraintTop_toBottomOf="@id/text1"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_
+                app:layout_constraintEnd_toEndOf="parent" />
+
+
+            <Button
+              
