@@ -67,4 +67,6 @@
 
 
             <TextView
-                android:id="@
+                android:id="@+id/tvWatchlist"
+                android:layout_width="match_parent"
+ 
