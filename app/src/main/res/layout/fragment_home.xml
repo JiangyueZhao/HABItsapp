@@ -78,4 +78,6 @@
                 />
 
             <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/rvWatchlist
+                android:id="@+id/rvWatchlist"
+                android:layout_width="match_parent"
+  
