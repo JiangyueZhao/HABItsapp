@@ -6,4 +6,5 @@
     <data>
         <variable
             name="coin"
-            type="me.aprilian.
+            type="me.aprilian.coinbasesample.data.LatestCoinResponse.Data" />
+    </da
