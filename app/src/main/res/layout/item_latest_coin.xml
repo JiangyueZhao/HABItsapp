@@ -9,4 +9,6 @@
             type="me.aprilian.coinbasesample.data.LatestCoinResponse.Data" />
     </data>
 
-    <androidx.constraintlayout.widget.Constrai
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:l
