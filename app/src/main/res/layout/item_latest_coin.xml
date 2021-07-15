@@ -4,4 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
-      
+        <variable
+            name="coin"
+            type="me.aprilian.
