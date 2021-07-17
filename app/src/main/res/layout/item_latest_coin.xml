@@ -11,4 +11,5 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:l
+        android:layout_height="wrap_content"
+        android:background="@color/w
