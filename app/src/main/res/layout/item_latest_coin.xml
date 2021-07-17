@@ -16,4 +16,6 @@
         android:padding="16dp">
 
         <ImageView
-     
+            android:id="@+id/ivCoin"
+            android:layout_width="36dp"
+          
