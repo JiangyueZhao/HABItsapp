@@ -20,4 +20,6 @@
             android:layout_width="36dp"
             android:layout_height="36dp"
             android:src="@mipmap/ic_launcher_round"
-            app:layout_constraintTop_toTopOf="
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+   
