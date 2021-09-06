@@ -37,4 +37,5 @@
             tools:text="Bitcoin"
             />
 
-        <androidx.appcompa
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvC
