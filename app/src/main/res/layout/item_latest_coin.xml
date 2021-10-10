@@ -63,4 +63,5 @@
             tools:text="$38,888.05"
             />
 
-        <andr
+        <androidx.appcompat.widget.AppCompatTextView
+    
