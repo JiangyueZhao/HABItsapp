@@ -5,3 +5,5 @@
 
     <data>
         <variable
+            name="coin"
+            type="me.aprilian.coin
