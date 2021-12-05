@@ -9,4 +9,6 @@
             type="me.aprilian.coinbasesample.data.Coin" />
     </data>
 
-    <androidx.constraintlayout.w
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+      
