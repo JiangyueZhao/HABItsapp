@@ -32,4 +32,5 @@
             android:text="@{coin.name}"
             android:textColor="@android:color/black"
             android:textSize="16sp"
-            app:layout_con
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStar
