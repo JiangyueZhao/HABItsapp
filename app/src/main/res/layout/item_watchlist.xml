@@ -35,4 +35,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toEndOf="@id/ivCoin"
             tools:text="Bitcoin"
-   
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+ 
