@@ -39,4 +39,5 @@
 
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/tvCoinSymbol"
-            an
+            android:layout_width="wrap_content"
+            android:layout_height="
