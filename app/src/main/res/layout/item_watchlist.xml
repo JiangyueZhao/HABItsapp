@@ -44,4 +44,5 @@
             android:text="@{coin.symbol}"
             android:textColor="@android:color/darker_gray"
             android:textSize="16sp"
-            app:layout_constraintTop_toBottomO
+            app:layout_constraintTop_toBottomOf="@+id/tvCoinName"
+            app:layout_constraintStart_toStartOf="@+i
