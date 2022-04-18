@@ -49,4 +49,6 @@
             tools:text="BTC"
             />
 
-        <androidx.ap
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvCoinPrice"
+      
