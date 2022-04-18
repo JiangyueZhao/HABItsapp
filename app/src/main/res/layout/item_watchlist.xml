@@ -51,4 +51,5 @@
 
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/tvCoinPrice"
-      
+            android:layout_width="wrap_content"
+            andro
