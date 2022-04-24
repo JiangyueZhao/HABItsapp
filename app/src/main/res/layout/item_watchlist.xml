@@ -56,4 +56,5 @@
             android:layout_marginStart="10dp"
             android:text="@{coin.symbol}"
             android:textColor="@android:color/black"
-            android
+            android:textSize="16sp"
+            app:layout_constraintTop_toTop
