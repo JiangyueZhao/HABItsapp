@@ -61,4 +61,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             tools:text="$38,888.05"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
            
