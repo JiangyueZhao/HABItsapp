@@ -77,4 +77,6 @@
             tools:text="+2.67%"
             />
 
-    </an
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
