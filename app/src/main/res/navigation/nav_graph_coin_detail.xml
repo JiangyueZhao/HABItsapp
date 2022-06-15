@@ -6,3 +6,5 @@
     app:startDestination="@id/coin_detail_dest">
 
     <fragment
+        android:id="@+id/coin_detail_dest"
+        android:name="me.aprilia
