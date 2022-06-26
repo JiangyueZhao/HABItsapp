@@ -7,4 +7,5 @@
 
     <fragment
         android:id="@+id/coin_detail_dest"
-        android:name="me.aprilia
+        android:name="me.aprilian.coinbasesample.ui.CoinDetailFragment"
+        android:label="
