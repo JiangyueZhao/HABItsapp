@@ -9,4 +9,6 @@
         android:id="@+id/coin_detail_dest"
         android:name="me.aprilian.coinbasesample.ui.CoinDetailFragment"
         android:label="Coin Detail"
-        tools:layout="@layout/fragment_
+        tools:layout="@layout/fragment_coin_detail">
+        <action
+            android:id="@+id/action_home
