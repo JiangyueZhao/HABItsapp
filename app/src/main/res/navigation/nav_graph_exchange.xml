@@ -3,4 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph_exchange"
-    app
+    app:startDestination="@id/coin_detail_dest">
+
+    <fragment
+     
