@@ -12,4 +12,5 @@
         tools:layout="@layout/fragment_coin_detail">
         <action
             android:id="@+id/action_home_to_details"
-        
+            app:destination="@id/details_dest"
+            app:enterAni
