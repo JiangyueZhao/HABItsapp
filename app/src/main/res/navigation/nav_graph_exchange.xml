@@ -13,4 +13,5 @@
         <action
             android:id="@+id/action_home_to_details"
             app:destination="@id/details_dest"
-            app:enterAni
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:
