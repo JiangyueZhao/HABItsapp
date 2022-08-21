@@ -25,3 +25,4 @@
         android:label="Coin Details"
         tools:layout="@layout/fragment_home" />
 
+</navigation>
