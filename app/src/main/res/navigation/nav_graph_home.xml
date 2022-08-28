@@ -11,4 +11,5 @@
         android:label="Home"
         tools:layout="@layout/fragment_home">
         <action
-            andr
+            android:id="@+id/action_home_to_details"
+            app:destination="
