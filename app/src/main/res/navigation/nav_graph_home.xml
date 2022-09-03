@@ -12,4 +12,5 @@
         tools:layout="@layout/fragment_home">
         <action
             android:id="@+id/action_home_to_details"
-            app:destination="
+            app:destination="@id/details_dest"
+            app:enterAnim="@anim/nav_default_enter_anim"
