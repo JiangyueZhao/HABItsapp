@@ -6,3 +6,5 @@
     app:startDestination="@id/price_dest">
 
     <fragment
+        android:id="@+id/price_dest"
+        android:name="me.apr
