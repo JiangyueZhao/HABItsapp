@@ -11,4 +11,5 @@
         android:label="Price"
         tools:layout="@layout/fragment_price">
         <action
-            android:i
+            android:id="@+id/action_price_to_coin_details"
+            app:de
