@@ -9,4 +9,6 @@
         android:id="@+id/price_dest"
         android:name="me.aprilian.coinbasesample.ui.PriceFragment"
         android:label="Price"
-        tools:lay
+        tools:layout="@layout/fragment_price">
+        <action
+            android:i
