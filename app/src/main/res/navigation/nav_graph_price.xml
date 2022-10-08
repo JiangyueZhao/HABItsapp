@@ -12,4 +12,5 @@
         tools:layout="@layout/fragment_price">
         <action
             android:id="@+id/action_price_to_coin_details"
-            app:de
+            app:destination="@id/coin_detail_dest"
+            app:enterAnim="@a
