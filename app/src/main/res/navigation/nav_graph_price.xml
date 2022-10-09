@@ -14,4 +14,5 @@
             android:id="@+id/action_price_to_coin_details"
             app:destination="@id/coin_detail_dest"
             app:enterAnim="@anim/nav_default_enter_anim"
-            app:exitAnim="@anim/na
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_ente
