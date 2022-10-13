@@ -21,4 +21,6 @@
 
     <fragment
         android:id="@+id/coin_detail_dest"
-        android:name="me.aprilian.coinbasesample.ui.CoinDetailFragmen
+        android:name="me.aprilian.coinbasesample.ui.CoinDetailFragment"
+        android:label="Coin Details"
+        tools:layout="@layout/fragment_coin_d
