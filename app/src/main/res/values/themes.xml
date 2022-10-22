@@ -2,4 +2,5 @@
     <!-- Base application theme. -->
     <style name="Theme.CoinbaseSample" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-      
+        <item name="colorPrimary">@color/coinbase_primary_day</item>
+        
