@@ -5,4 +5,5 @@
         <item name="colorPrimary">@color/coinbase_primary_day</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
         <item name="colorOnPrimary">@color/white</item>
-      
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@c
