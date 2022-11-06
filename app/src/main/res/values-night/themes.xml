@@ -1,3 +1,4 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.CoinbaseSample" parent=
+    <style name="Theme.CoinbaseSample" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- 
