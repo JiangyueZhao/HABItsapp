@@ -15,4 +15,7 @@
     </style>
 
     <style name="MyButtonStyle" parent="Widget.MaterialComponents.Button">
-        <item name="colorPrimary">@col
+        <item name="colorPrimary">@color/coinbase_primary_day</item>
+    </style>
+
+</resources>
