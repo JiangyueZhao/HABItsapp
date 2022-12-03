@@ -4,3 +4,7 @@ buildscript {
         kotlin_version = "1.3.72"
 
         //App Version
+        appVersionCode = 1
+        appVersionName = "1.0"
+
+        /
