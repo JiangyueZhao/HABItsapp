@@ -7,4 +7,6 @@ buildscript {
         appVersionCode = 1
         appVersionName = "1.0"
 
-        /
+        // Sdk and tools
+        compileSdkVersion = 30
+        minSdkVe
