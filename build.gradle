@@ -15,4 +15,6 @@ buildscript {
         // App dependencies
         appCompatVersion = '1.1.0'
         constraintLayoutVersion = '2.0.0-beta3'
-        coreTestingVersion = '2.0
+        coreTestingVersion = '2.0.0'
+        coroutinesVersion = "1.4.2"
+        espressoVer
