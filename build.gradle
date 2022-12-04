@@ -12,4 +12,6 @@ buildscript {
         minSdkVersion = 21
         targetSdkVersion = 30
 
-        // App depend
+        // App dependencies
+        appCompatVersion = '1.1.0'
+        constraintLayo
