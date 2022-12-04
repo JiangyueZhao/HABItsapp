@@ -14,4 +14,5 @@ buildscript {
 
         // App dependencies
         appCompatVersion = '1.1.0'
-        constraintLayo
+        constraintLayoutVersion = '2.0.0-beta3'
+        coreTestingVersion = '2.0
