@@ -26,3 +26,5 @@ buildscript {
         junitVersion = '4.12'
         kotlinVersion = '1.4.30'
         ktlintVersion = '0.38.1'
+        ktxVersion = '1.5.0'
+        lifecycleVers
