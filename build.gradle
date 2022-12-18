@@ -30,4 +30,6 @@ buildscript {
         lifecycleVersion = '2.2.0'
         materialVersion = '1.2.0'
         navigationVersion = '2.4.0-alpha01'
-        okhttpLoggingVersion = '4.7.
+        okhttpLoggingVersion = '4.7.2'
+        pagingVersion = '3.0.0-alpha02'
+      
