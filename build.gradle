@@ -32,4 +32,6 @@ buildscript {
         navigationVersion = '2.4.0-alpha01'
         okhttpLoggingVersion = '4.7.2'
         pagingVersion = '3.0.0-alpha02'
-      
+        recyclerViewVersion = '1.2.1'
+        retrofitVersion = '2.9.0'
+        
