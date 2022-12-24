@@ -34,4 +34,6 @@ buildscript {
         pagingVersion = '3.0.0-alpha02'
         recyclerViewVersion = '1.2.1'
         retrofitVersion = '2.9.0'
-        
+        roomVersion = '2.2.5'
+        testExtJunit = '1.1.0'
+        uiAutomatorVersion =
