@@ -43,4 +43,5 @@ buildscript {
         //jetpack compose
         composeActivityCompose = '1.3.0-alpha08'
         composeFoundation = '1.0.0-beta07'
-       
+        composeLifecycleViewmodel = '1.0.0-alpha05'
+        composeMaterial 
