@@ -45,4 +45,5 @@ buildscript {
         composeFoundation = '1.0.0-beta07'
         composeLifecycleViewmodel = '1.0.0-alpha05'
         composeMaterial = '1.0.0-beta07'
-        composeMaterialIconsCore = '1.0.0-bet
+        composeMaterialIconsCore = '1.0.0-beta07'
+        composeMaterialIconsExtended = '1.0.0-beta07'
