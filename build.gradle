@@ -47,3 +47,5 @@ buildscript {
         composeMaterial = '1.0.0-beta07'
         composeMaterialIconsCore = '1.0.0-beta07'
         composeMaterialIconsExtended = '1.0.0-beta07'
+        composeRuntimeLivedata = '1.0.0-beta07'
+        composeRunti
