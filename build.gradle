@@ -48,4 +48,5 @@ buildscript {
         composeMaterialIconsCore = '1.0.0-beta07'
         composeMaterialIconsExtended = '1.0.0-beta07'
         composeRuntimeLivedata = '1.0.0-beta07'
-        composeRunti
+        composeRuntimeRxJava2 = '1.0.0-beta07'
+        composeUi = '1.0.0-beta07
