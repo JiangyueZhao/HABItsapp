@@ -55,4 +55,8 @@ buildscript {
     }
 
     repositories {
- 
+        google()
+        jcenter()
+    }
+    dependencies {
+        clas
