@@ -68,4 +68,6 @@ buildscript {
 }
 
 allprojects {
-    
+    repositories {
+        google()
+        jcen
